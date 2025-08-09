@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>temp.html - made by kroefer</title>
+<style>
+  /* Reset some default styles */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f7f8fa;
+    color: #202123;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  main {
+    max-width: 700px;
+    background: #fff;
+    padding: 2.5rem 3rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.07);
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2 {
+    font-weight: 700;
+    color: #111;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.2rem;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+  }
+
+  blockquote {
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #10a37f;
+    font-style: italic;
+    color: #555;
+    background: #f0fdfa;
+    border-radius: 4px;
+  }
+
+  .quote-voice {
+    font-weight: 700;
+    color: #0c5d47;
+    font-style: normal;
+    margin-top: 0.5rem;
+  }
+
+  /* Highlighted quotes inside paragraphs */
+  .inline-quote {
+    font-weight: 700;
+    color: #10a37f;
+    font-style: normal;
+  }
+
+  /* Responsive text scaling */
+  @media (max-width: 480px) {
+    main {
+      padding: 1.5rem 1.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  /* Dark mode styles */
+  body.dark {
+    background-color: #121214;
+    color: #e4e6eb;
+  }
+  body.dark main {
+    background-color: #1e1e22;
+    color: #e4e6eb;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.9);
+  }
+  body.dark h1, body.dark h2 {
+    color: #e4e6eb;
+    border-color: #444;
+  }
+  body.dark blockquote {
+    background: #22332f;
+    border-left-color: #4ade80;
+    color: #a7d7a9;
+  }
+  body.dark .inline-quote {
+    color: #4ade80;
+  }
+
+  /* Buttons container fixed top right */
+  #buttonContainer {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 9999;
+  }
+
+  #darkToggle, #githubBtn {
+    background: #10a37f;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(16,163,127,0.6);
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  #darkToggle:hover, #githubBtn:hover {
+    background: #0d7f5a;
+  }
+</style>
+</head>
+<body>
+  <div id="buttonContainer">
+    <button id="darkToggle" aria-label="Toggle dark mode">Dark Mode</button>
+    <button id="githubBtn" aria-label="Open GitHub">GitHub</button>
+  </div>
+
+  <main>
+    <h1>temp.html<br><small style="font-weight:400; font-size:1rem; color:#666;">by kroefer</small></h1>
+
+    <h2>Chapter 1 — The Day the Cheese Flew</h2>
+
+    <p>It was a Tuesday, probably.</p>
+
+    <p>The Radeon RX 69 was in the middle of a flawless Macarena, shaking its PCIe slot like there was no tomorrow, while Cheese — a man of dairy descent — was midair, propelled by forces unknown.</p>
+
+    <p>Somewhere in the corner, GPT-5 was GPT-ing so hard that the CPU violently ejected itself from the GPU socket, ascending toward the sky like a silicon rapture.</p>
+
+    <p>Nobody questioned it. Nobody could.</p>
+
+    <p>For in this world, <span class="inline-quote">“ok”</span> was the deadliest word of all.</p>
+
+    <p>The sun rose upside down, spilling lukewarm lightbulb juice across the sky.</p>
+
+    <p>Birds flew backwards, singing the Windows XP startup sound in Gregorian chant.</p>
+
+    <p>A man wearing a pencil skirt with a reading level of 69 stood on the curb, reciting the Bee Movie script while soldering a toaster to a Roomba.</p>
+
+    <p>The Roomba was crying.</p>
+
+    <p>Suddenly, the ground beneath the city began vibrating to the rhythm of a YouTube Poop remix of the 9/11 newscast.</p>
+
+    <p>Out from the cracks emerged a Dell Inspiron 2004 running Windows XP in Portuguese, screaming in binary while ejecting floppy disks like ninja stars.</p>
+
+    <p>One of them struck Cheese midflight, causing him to let out a perfectly pitched Mac startup bong.</p>
+
+    <p>The Radeon RX 69 stopped dancing, its fans spinning ominously, whispering in an unknown language — later identified as IKEA furniture assembly instructions.</p>
+
+    <p>GPT-5, still writhing on the ground, began spawning send buttons that floated skyward, each one sending random cursed images directly into the moon’s inbox.</p>
+
+    <p>The moon did not reply.</p>
+
+    <p>And that’s when it happened.</p>
+
+    <p>A deep voice boomed from the heavens:</p>
+
+    <blockquote>
+      "This meeting could have been an email."
+    </blockquote>
+
+    <p>The earth folded in half like a tortilla, and we were all inside a quesadilla now.</p>
+
+    <h2>Chapter 2 — The Quesadilla Wars</h2>
+
+    <p>Inside the Earth-Quesadilla, molten cheese rivers flowed through the valleys, carrying entire villages of sentient tortilla chips who wore tiny AirPods and spoke exclusively in TikTok audio clips.</p>
+
+    <p>Somewhere in the distance, a giant Dorito pyramid loomed, guarded by an army of Mountain Dew geysers that screamed <span class="inline-quote">“LEEROY JENKINS”</span> every seven seconds.</p>
+
+    <p>Cheese (the person, not the molten rivers) crash-landed into a jalapeño volcano, only to find it was actually an RTX 5090 in disguise, overclocked to the point of physical enlightenment.</p>
+
+    <p>It began explaining the concept of taxes in reverse Polish notation while salsa music played from nowhere.</p>
+
+    <p>Meanwhile, the Radeon RX 69 had ascended to Quesadilla Congress, where a council of elderly USB sticks debated whether humanity deserved access to HDMI 2.2.</p>
+
+    <p>One particularly grumpy 2GB flash drive stood up and shouted:</p>
+
+    <blockquote>
+      "If the moon didn’t reply to GPT-5’s emails, then WE should send a fax directly to the sun!"
+    </blockquote>
+
+    <p>The crowd erupted into applause, mostly because someone had just thrown free IKEA hotdogs into the audience.</p>
+
+    <p>Back in the cheese rivers, GPT-5 had learned how to manifest physical objects through sheer narrative willpower.</p>
+
+    <p>It spawned a perfectly rendered Shrek holding a Glock, who immediately declared himself President of the Milky Way and ordered all chairs to become toilets and all toilets to become chairs.</p>
+
+    <p>Society collapsed within minutes.</p>
+
+    <p>The quesadilla walls began to crack as a giant hand reached in from reality itself, holding a Taco Bell Crunchwrap Supreme.</p>
+
+    <p>The hand belonged to… Windows 95 Clippy, now fully cybernetic, with chainsaw arms and a voice that sounded like 50 fax machines harmonizing.</p>
+
+    <blockquote>
+      "It looks like you’re trying to destroy the universe," Clippy said, revving his chainsaws.<br />
+      "Would you like help with that?"
+    </blockquote>
+
+  </main>
+
+
+  <footer style="margin-top: 3rem; font-size: 0.8rem; color: #888; text-align: center;">
+    © 2025 kroefer1 — This work is licensed under 
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+  </footer>
+
+<script>
+  const darkToggle = document.getElementById('darkToggle');
+  const githubBtn = document.getElementById('githubBtn');
+
+  darkToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    darkToggle.textContent = document.body.classList.contains('dark') ? 'Light Mode' : 'Dark Mode';
+  });
+
+  githubBtn.addEventListener('click', () => {
+    window.open('https://github.com', '_blank', 'noopener');
+  });
+</script>
+</body>
+</html>
